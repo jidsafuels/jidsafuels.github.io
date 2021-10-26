@@ -34,34 +34,31 @@
 							</div>
 							<div class="col">
 								<div class="p-3 border bg-light">
-									<p class="small">
+									<p class="fs-6">
 										<ul class="list-group">
 											<figure class="text-end">
 												<p>JIDSA FUELS,S.A.</p>
 												<p>RUC: 155707332-2-2021 | DV:40</p>
 												<p>232-5495</p>
 												<p>jidsafuels@cejisa.com</p>
-												
 											</figure>
 											<figure class="text-center">
-												<li class="list-group-item">Orden  de  Entrega</li>
-												<li class="list-group-item">
-																			<select class="form-select" aria-label="Default select example">
-																			<option selected>Despachador:</option>
-																			<option value="D1">D1</option>
-																			<option value="D2">D2</option>
-																			<option value="D3">D3</option>
-																			<option value="D4">D4</option>
-																			</select>
-												</li>
-												<li class="list-group-item">
-																				No. <p id="demo"></p>
-																				<script>
-																				var today = new Date();
-																				var date = today.getFullYear()+''+(today.getMonth()+1)+''+today.getDate()+''+today.getHours()+''+today.getMinutes()+''+today.getSeconds();
-																				document.getElementById("demo").innerHTML = date;
-																				</script>
-												</li>
+												Orden  de  Entrega
+												<select class="form-select" aria-label="Default select example">
+													<option selected>Despachador:</option>
+													<option value="D1">D1</option>
+													<option value="D2">D2</option>
+													<option value="D3">D3</option>
+													<option value="D4">D4</option>
+												</select>
+												<p>
+													No. <p id="demo"></p>
+													<script>
+													var today = new Date();
+													var date = today.getFullYear()+''+(today.getMonth()+1)+''+today.getDate()+''+today.getHours()+''+today.getMinutes()+''+today.getSeconds();
+													document.getElementById("demo").innerHTML = date;
+													</script>
+												</p>
 											</figure>
 										</ul>
 									</p>
@@ -69,7 +66,7 @@
 							</div>
 						</div>
 					</div>
-					<p class="small">
+					<p class="fs-6">
 						<div class="mb-3">
 							<label for="lblfecha" class="form-label">Fecha:</label>
 							<input type="text" class="form-control" id="txtfecha"  placeholder="">
